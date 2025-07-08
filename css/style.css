@@ -1,0 +1,143 @@
+/* body */
+body {
+    background-color: #1e202c;
+}
+
+
+/* nav sec */
+nav small {
+    top: 0px;
+    left: 4px;
+    font-size: 10px;
+}
+
+nav .caption h3 {
+    top: 10px;
+}
+/* main */
+main .cover-wrap{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 350px;
+}
+
+main .container {
+    padding-top: 70px;
+}
+main input, main .searchInput, footer input, footer .subscribInput {
+    border: none;
+    border-radius: 30px;
+    background-color: #1e202c;
+}
+
+main .searchInput {
+    margin-bottom: 70px;
+}
+
+
+main input, footer input {
+    top: 0;
+}
+
+main input:focus, footer input:focus {
+    outline: none;
+}
+
+main button, footer button {
+    right: 4px;
+    top: 3px;
+    padding: 13px;
+    border: none;
+    border-radius: 25px;
+    background-color: #039fda;
+    color: white;
+}
+
+span {
+    font-size: 12px;
+    top: 0;
+}
+
+.today span {
+    top: 12px;
+    font-size: 30px;
+}
+
+.cover-wrap {
+    z-index: -1;
+}
+
+.weather-sec .today {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #323544;
+    color: #beb2b9;
+}
+.weather-sec .today .date {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #2d313d;
+    color: #039fda;
+    padding: 2.6px 0;
+}
+
+.weather-sec .main-content h1 {
+    font-size: 100px;
+    color: white;
+}
+
+.status h6 {
+    color: #039fda;
+}
+
+.tomorrow {
+    background-color: #262a36;
+    color: #beb2b9;
+}
+
+.tomorrow .date {
+    background-color: #222430;
+}
+
+.tomorrow h4, .after-tomorrow h4 {
+    color: #039fda;
+}
+
+.after-tomorrow {
+    background-color: #323544;
+    color: #beb2b9;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.after-tomorrow .date {
+    background-color: #2d313d;
+}
+
+/* footer */
+
+footer {
+    background-color: #262a36;
+}
+
+footer .subscribInput {
+    top: 0;
+}
+
+footer button {
+    padding: 13px 16px;
+}
+
+footer li {
+    background-color: #1e202c;
+}
+
+footer a {
+    color: #039fda;
+}
+
+footer p {
+    color: #beb2b9;
+    font-size: 14px;
+}

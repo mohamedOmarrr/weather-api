@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    .weather-sec .today {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    }
+
+    .after-tomorrow {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    }
+
+    .after-tomorrow .date {
+        border-top-right-radius: 10px;
+    }
+}
